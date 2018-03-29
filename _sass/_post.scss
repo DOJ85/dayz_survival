@@ -1,0 +1,105 @@
+
+.align {
+  float: left;
+}
+.post {
+  margin: 60px 0 20px 40px;
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+
+
+.post figure {
+  margin-right: 10ch;
+  border: 2px solid black;
+  height: 20ch;
+  display: flex;
+
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 0 10px #5b5b5b, 0 0 20px black;
+  background-color: black;
+  transform: scale(1);
+  transition: transform 2s,opacity 2s;
+
+  transition: 2s all;
+  -moz-transition: 2s all;
+  -o-transition: 2s all;
+  -webkit-transition: 2s all;
+}
+.post figure:hover {
+  box-shadow:  0 0 50px black;
+  transform: scale(1.06);
+  transition: transform 2s,opacity 2s;
+  transition: 2s all;
+  -moz-transition: 2s all;
+  -o-transition: 2s all;
+  -webkit-transition: 2s all;
+}
+
+.post figure img {
+  height: 23ch;
+  width: 100%;
+  opacity: 0.85;
+  transform: scale(1.36);
+  transition: transform 2s,opacity 2s;
+}
+.post figure img:hover {
+  opacity: 1;
+  overflow: hidden;
+  transform: scale(1);
+  transition: transform 2s,opacity 2s;
+}
+
+@media(max-width: 1220px)
+{
+  .post {
+    margin: 60px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .post figure {
+    margin-bottom: 15px;
+    width: 100%;
+    -moz-width: 100%;
+
+    height: 100%;
+    -moz-height: 100%;
+  }
+  .post figure img {
+    height: 100%;
+    -moz-height: 100%;
+  }
+  .text h1 {
+    margin-top: 20px;
+  }
+  .text h1, p {
+    text-align: center;
+  }
+  .description {
+    margin: auto;
+  }
+}
+
+
+
+
+
+.titre {
+margin-bottom: 4vh;
+}
+.titre h1 {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.description {
+  max-width: 500px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
