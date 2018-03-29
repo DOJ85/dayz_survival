@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+html, body {
+  height: 100%; }
+
+.nav1 {
+  width: 100%;
+  background-color: #282828;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  border-bottom: 3px solid #161616;
+  box-shadow: 0 0 15px black, 0 0 30px black;
+  margin: 0;
+  position: relative; }
+
+.nav1 li {
+  display: inline-block;
+  padding-right: 65px;
+  padding-left: 65px; }
+
+.nav1 li a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-shadow: 0 0 15px black;
+  outline-style: none;
+  padding: 10px;
+  line-height: 35px; }
+
+.nav1 li a:hover {
+  color: #a80000;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s; }
+
+.nav1 li a:focus {
+  color: #a80000; }
+
+#random {
+  overflow: auto;
+  height: 87vh;
+  background-position: 50% 50%;
+  background-size: cover; }
+
+body {
+  background: #686868;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #969696, #455159);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #969696, #455159);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-width: 282px;
+  /*overflow-y: scroll;*/
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300; }
+
+h1 {
+  color: #282828;
+  padding: 10px;
+  margin-top: 10vh;
+  font-size: 56px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  box-shadow: 0 0 1px black, 0 0 40px black;
+  text-shadow: 0 0 40px black;
+  letter-spacing: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s; }
+
+h1:hover {
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+h2 {
+  margin-top: 20vh;
+  text-shadow: 0 0 15px black, 0 0 40px black;
+  line-height: 120%;
+  letter-spacing: 4px;
+  word-spacing: 7px;
+  margin-bottom: 20px; }
+
+h2 span {
+  font-weight: 400;
+  text-decoration: underline; }
+
+.title {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+footer {
+  width: 100%;
+  font-size: 17px;
+  background-color: #282828;
+  color: white;
+  background-color: #1c1c1c;
+  text-align: center;
+  height: 50px;
+  border-top: 2px solid #161616;
+  box-shadow: 0 0 15px black;
+  position: absolute;
+  bottom: 0; }
+
+footer p {
+  padding-top: 12px; }
+
+/*# sourceMappingURL=main.css.map */

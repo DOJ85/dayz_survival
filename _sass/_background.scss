@@ -1,0 +1,16 @@
+
+#random {
+  overflow: auto;
+  height: 87vh;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+body {
+background: #686868;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #969696, #455159);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #969696, #455159); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  min-width: 282px;
+  /*overflow-y: scroll;*/
+  overflow-x: hidden;
+}
