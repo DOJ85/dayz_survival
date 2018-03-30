@@ -152,8 +152,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
-  float: left; }
+  flex-direction: column; }
 
 .post figure {
   margin-right: 10ch;
