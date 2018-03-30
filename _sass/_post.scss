@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 .align {
   float: left;
@@ -18,7 +25,7 @@
 .post figure {
   margin-right: 10ch;
   border: 2px solid black;
-  height: 20ch;
+  height: 22ch;
   display: flex;
 
   overflow: hidden;
@@ -97,6 +104,9 @@ margin-bottom: 4vh;
 .titre h1 {
   text-decoration: underline;
   font-weight: 500;
+}
+.titre a {
+  color: black;
 }
 .description {
   max-width: 500px;
