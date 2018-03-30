@@ -6,6 +6,9 @@
 html, body {
   height: 100%; }
 
+body {
+  overflow-x: hidden; }
+
 .nav1 {
   width: 100%;
   background-color: #282828;
