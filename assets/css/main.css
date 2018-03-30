@@ -218,7 +218,8 @@ body {
   font-weight: 500; }
 
 .titre a {
-  color: black; }
+  color: black;
+  outline: none; }
 
 .description {
   max-width: 500px;
