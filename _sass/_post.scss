@@ -2,8 +2,12 @@
   margin: 0;
   padding: 0;
 }
+html {
+  height: auto;
+}
 body {
   font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
 }
 
 .align {
@@ -19,8 +23,6 @@ body {
   flex-direction: column;
   float: left;
 }
-
-
 
 .post figure {
   margin-right: 10ch;
@@ -113,4 +115,7 @@ margin-bottom: 4vh;
   max-width: 500px;
   letter-spacing: 1px;
   word-spacing: 4px;
+}
+hr {
+  color: black;
 }
