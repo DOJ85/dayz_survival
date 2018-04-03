@@ -1,6 +1,6 @@
 
 function randombg(){
-  var random= Math.floor(Math.random() * 23) + 0;
+  var random= Math.floor(Math.random() * 22) + 0;
   var bigSize = ["url('assets/img/bg/img1.jpg')",
                  "url('assets/img/bg/img2.jpg')",
                  "url('assets/img/bg/img3.jpg')",
@@ -22,7 +22,6 @@ function randombg(){
                  "url('assets/img/bg/img19.png')",
                  "url('assets/img/bg/img20.png')",
                  "url('assets/img/bg/img21.png')",
-                 "url('assets/img/bg/img22.png')",
-                 "url('assets/img/bg/img23.jpg')"];
+                 "url('assets/img/bg/img22.png')"];
   document.getElementById("random").style.backgroundImage=bigSize[random];
 }
